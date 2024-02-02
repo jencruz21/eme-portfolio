@@ -20,7 +20,7 @@ function App() {
     <div className="app">
       <div className="container" id="app">
         <ReactTyped
-          strings={["Hello, I'm Jorgen Cruz", "New portfolio?"]}
+          strings={["Hello, I'm Jorgen Cruz", "I'm a Software Enginner", "Also a DevOps Engineer"]}
           typeSpeed={60}
           backSpeed={60}
           loop
