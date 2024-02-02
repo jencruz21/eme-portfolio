@@ -32,7 +32,6 @@ input[type="text"] {
   color: "#fff";
   caret-color: white;
   text-align: center;
-  width: 100%;
 }
 
 input[type="text"]:focus {
