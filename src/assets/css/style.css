@@ -1,0 +1,40 @@
+/*
+    fonts
+*/
+@font-face {
+  font-family: raleway-medium;
+  src: url(../fonts/Raleway-Medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  font-family: raleway-medium;
+  font-size: 3vw;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: white;
+}
+
+input[type="text"] {
+  color: "#fff";
+  caret-color: white;
+}
+
+input[type="text"]:focus {
+  color: "white";
+  border: 0;
+  outline: none;
+}
