@@ -11,7 +11,7 @@ function App() {
       backgroundColor: "#03002E",
       points: 9,
       maxDistance: 20,
-      spacing: 15,
+      spacing: 18,
       scale: 1,
     });
   }, []);
