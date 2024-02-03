@@ -39,3 +39,12 @@ input[type="text"]:focus {
   border: 0;
   outline: none;
 }
+
+/*
+    Responsive Media Query
+*/
+
+/* For Desktop View */
+@media screen  {
+  
+}

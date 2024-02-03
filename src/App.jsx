@@ -20,13 +20,22 @@ function App() {
     <div className="app">
       <div className="container" id="app">
         <ReactTyped
-          strings={["Hello, I'm Jorgen Cruz", "I'm a Software Engineer", "So a new portfolio?"]}
+          strings={[
+            "Hello, I'm Jorgen Cruz",
+            "I'm a Software Engineer",
+            "So a new portfolio?",
+          ]}
           typeSpeed={60}
           backSpeed={60}
           loop
           showCursor={true}
         >
-          <input className="header-title" type="text" />
+          <input
+            className="header-title"
+            type="text"
+            autoFocus
+            onBlur={({ target }) => {target.focus()}}
+          />
         </ReactTyped>
       </div>
     </div>
